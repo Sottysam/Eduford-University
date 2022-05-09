@@ -331,7 +331,7 @@ footer div .fa{
         padding: 5px 30px;
     }
     #nav{
-        position: absolute;
+        position: fixed;
         top: 0;
         right: -200px;
         padding: 10px 20px;
