@@ -322,6 +322,9 @@ footer div .fa{
     color: #f44336;
 }
 @media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
     nav .fa{
         display: block;
         color: white;
