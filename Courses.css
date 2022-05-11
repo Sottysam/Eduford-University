@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding-bottom: 30px;
+}
+
+header{
+    background-image: linear-gradient(rgba(2, 10, 29, 0.6),rgba(2, 10, 29, 0.6)), url("./images/background.jpg");
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav img{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+#nav li{
+    display: inline-block;
+    margin: 10px;
+    transition: 0.15s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#nav a{
+    color: white;
+    font-size: 13px;
+}
+
+#nav li:hover{
+    background-color: #f44336;
+}
+
+nav .fa{
+    display: none;
+}
+
+.textbox{
+    width:  80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.textbox h3{
+    font-size: 40px;
+}
+
+.texti{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.texti h3{
+    font-size: 40px;
+}
+.texti p{
+    margin-top: 20px;
+    color: #777;
+}
+
+.firstflex{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: top;
+    margin: auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.firstflex div{
+    background-color: #fff3f3;
+    text-align: center;
+    width: auto;
+    padding: 20px 10px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.firstflex p{
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #777;
+}
+
+.firstflex div:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.textii{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.textii h3{
+    font-size: 40px;
+}
+.textii p{
+    margin-top: 20px;
+    color: #777;
+}
+
+.facilities{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.facilities img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities div{
+    margin-top: 20px;
+}
+
+.facilities p{
+    margin-top: 20px;
+    line-height: 30px;
+    color: #777;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer div{
+    margin-top: 20px;
+    color: #f44336;
+}
+
+footer p{
+    color: #777;
+}
+
+footer div .fa{
+    margin: 0px 10px;
+}
+.ftext{
+    margin-top: 30px;
+}
+
+.stext{
+    margin-top: 20px;
+}
+
+.stext .fa{
+    color: #f44336;
+}
+
+@media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        font-size: larger;
+    }
+    nav{
+        padding: 5px 30px;
+    }
+    #nav{
+        position: fixed;
+        top: 0;
+        right: -200px;
+        padding: 10px 20px;
+        background-color: #f44336;
+        height: 100%;
+        text-align: left;
+        z-index: 30;
+        transition: 1s;
+    }
+    #nav li{
+        display: block
+    }
+    .textbox{
+        margin-top: 200px;
+    }
+    .textbox h3{
+        font-size: 20px;
+    }
+    .texti h3{
+        font-size: 40px;
+    }
+    .texti p{
+        margin-top: 20px;
+    }
+    .firstflex{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstflex p{
+        font-size: 15px;
+    }
+    .facilities{
+        flex-direction: column;
+    }
+}
