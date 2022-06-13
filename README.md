@@ -1,6 +1,5 @@
-# Eduford-University![Screenshot (7)](https://user-images.githubusercontent.com/101476757/173331468-197fa9f2-6045-4079-a806-e6d65613d16a.png)
-![Screenshot (2)](https://user-images.githubusercontent.com/101476757/173331475-bf744452-686a-4ced-ba69-d33108c13dfd.png)
-![Screenshot (3)](https://user-images.githubusercontent.com/101476757/173331485-162e9a13-b1a8-4af7-aaa3-799e604181cd.png)
-![Screenshot (4)](https://user-images.githubusercontent.com/101476757/173331493-93cc7d71-23a4-430b-9609-7c4c186f8561.png)
-![Screenshot (5)](https://user-images.githubusercontent.com/101476757/173331506-108c9ecd-6e55-4a21-904a-3172404ac92f.png)
-![Screenshot (6)](https://user-images.githubusercontent.com/101476757/173331508-dd0c3abd-30c1-40ed-b2b6-1f239ed4444f.png)
+# Eduford-University
+
+![Screenshot (9)](https://user-images.githubusercontent.com/101476757/173332155-a449de44-b9e7-47e5-80e0-a5ee4a488cfe.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/101476757/173332169-66b58b9e-db57-4d2f-954f-d4d0448bf988.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/101476757/173332177-52418f13-3e3f-4e2a-99a4-5ff2d19c1c43.png)
